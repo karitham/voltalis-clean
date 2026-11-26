@@ -1,0 +1,19 @@
+{
+  "name": "MyVoltalis",
+  "short_name": "MyVoltalis",
+  "description": "Control Voltalis radiators, schedules and consumption.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f3",
+  "theme_color": "#1d6b56",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["utilities", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

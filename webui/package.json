@@ -1,0 +1,24 @@
+{
+  "name": "voltalis-control-web",
+  "private": true,
+  "version": "2.0.0",
+  "license": "EUPL-1.2",
+  "author": "albedo <albedo@karitham.dev>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "build": "vite build --config vite.config.ts",
+    "preview": "vite preview --config vite.config.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "solid-js": "2.0.4",
+    "@solidjs/web": "2.0.4"
+  },
+  "devDependencies": {
+    "vite": "8.4.0",
+    "@solidjs/vite-plugin": "3.0.1",
+    "vite-plugin-singlefile": "2.3.4",
+    "typescript": "latest"
+  }
+}

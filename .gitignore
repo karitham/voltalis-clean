@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.config/
+.DS_Store
+node_modules/
+webui/dist/
+webui/.vite/
+*.har
+*.log
+.pytest_cache/
+.venv/
+.coverage
+htmlcov/
